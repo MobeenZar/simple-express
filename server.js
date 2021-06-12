@@ -23,7 +23,7 @@ app.get("/users/:username", (req, res, next) => {
 });
 
 app.get("/health", (req, res, next) => {
-  res.status(200).send("Hello world!");
+  res.status(200).send("Hello 2!");
 });
 
 app.get("/", (req, res, next) => {
